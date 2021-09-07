@@ -55,4 +55,7 @@ export default {
             border-color: green transparent transparent transparent;
             border-style: solid; margin: 3px 0 0 5px;
         }
+    .el-card__header{
+        border-bottom: none !important; padding: 0 !important;
+    }
 </style>

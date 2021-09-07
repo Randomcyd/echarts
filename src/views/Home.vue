@@ -4,6 +4,7 @@
     <sales-view></sales-view>
     <bottom-view></bottom-view>
     <map-view></map-view>
+    
   </div>
 </template>
 
@@ -14,18 +15,25 @@ import SalesView from '../components/SalesView/SalesView.vue'
 import BottomView from '../components/BottomView/BottomView.vue'
 import MapView from '../components/MapView/MapView.vue'
 
+
+
 export default {
+  data(){
+    return{
+      
+    }
+  },
   name: 'Home',
   components: {
-    TopView,BottomView,SalesView,MapView
+    TopView,BottomView,SalesView,MapView,
+    
   }
 }
 </script>
 
 <style lang="scss" scoped>
  .home{
-   width: 100%; 
-   height: 100%; 
+   width: 100%;  
    padding: 20px;
    background: #eee;
    box-sizing: border-box;
